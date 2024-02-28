@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+li:hover {
+  @apply bg-accent;
+  @apply text-white;
+  @apply transition-all;
+  @apply rounded-lg;
+  /* @apply bg-opacity-75; */
+}
+
+/* Media query for md screen size */
+@media (max-width: 768px) {
+  /* Hide the "About Us" link */
+  ul.hide{
+    display: none;
+  }
+}
