@@ -56,8 +56,8 @@ function App() {
 
 
       {/* Case Study */}
-      <div className=" bg-primary relative">
-        <h1 className='text-white font-medium text-5xl text-center md:text-6xl relative top-16 mb-24'>Our case studies...</h1>
+      <div className=" bg-primary relative p-8 top-16">
+        <h1 className='text-white font-medium text-5xl text-center md:text-6xl relative  mb-16 mt-16'>Our case studies...</h1>
         <div className='flex flex-col lg:flex-row md:justify-evenly lg:justify-evenly gap-8 bg-primary'>
           <Card
             imgSrc="https://www.unicef.org/philippines/sites/unicef.org.philippines/files/styles/hero_tablet/public/UNIPH2019008.jpg.webp?itok=rLtEKd1n"
