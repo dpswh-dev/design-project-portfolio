@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   const [theme, setTheme] = useState('light');
@@ -10,7 +11,7 @@ export default function Navbar() {
     document.querySelector('html').setAttribute('data-theme', theme);
   }, [theme]);
   return (
-    <div className="navbar bg-base-100" data-theme="luxury">
+    <div className="navbar bg-base-100" data-theme="cupcake">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,8 +36,8 @@ export default function Navbar() {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-xl">
-            <li><a>Case Study 1</a></li>
-            <li><a>Case Study 2</a></li>
+            <li><Link to="/campus-notes">Case Study 1</Link></li>
+            <li><Link to="/lite-saver">Case Study 2</Link></li>
           </ul>
         </div>
         <div className="navbar-end">

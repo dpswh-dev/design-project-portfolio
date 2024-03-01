@@ -4,4 +4,10 @@
 
 html {
   overflow-x: hidden;
+  /* background-color: #f4eefd; */
+  @apply bg-background;
+}
+
+body {
+  @apply bg-background;
 }

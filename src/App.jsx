@@ -4,23 +4,22 @@ import './App.css'
 import Navbar from './components/Navbar';
 import Profile from './components/Profile/Profile';
 import ProfileContainer from './components/Profile/ProfileContainer';
-import Card from './components/Card';
+import Card from './components/CardPicture';
+
+import { Link } from 'react-router-dom';
+import Hero from './components/Hero';
 
 
 function App() {
   return (
-    <div className=' bg-background font-poppins h-full w-svw'>
+    <div className='font-poppins h-full w-svw'>
       <Navbar />
 
       {/* Hero */}
-      <div className='relative w-screen h-[50rem] lg:h-[40rem] bg-primary p-10'>
-        <div className='flex h-full items-center justify-center lg:justify-start'>
-          <div className='flex flex-col text-center md:text-left'>
-            <h1 className='text-white font-semibold text-8xl md:text-[10rem] xl:text-[10rem] xl:ml-24'>SAKSI</h1>
-            <h1 className='text-white text-4xl xl:ml-24'>a design project portfolio</h1>
-          </div>
-        </div>
-      </div>
+      <Hero
+        heading="SAKSI"
+        subHeading="a design project portfolio"
+      />
 
       {/* Team */}
       <div className=' mt-24 text-primary font-medium text-5xl text-center md:text-6xl'>
@@ -63,13 +62,15 @@ function App() {
             imgSrc="https://www.unicef.org/philippines/sites/unicef.org.philippines/files/styles/hero_tablet/public/UNIPH2019008.jpg.webp?itok=rLtEKd1n"
             alt="CampusNotes"
             caseStudy="CampusNotes"
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum nisl a ex placerat, sit amet suscipit sem mollis. Nulla commodo erat vitae est efficitur consectetur. Duis vitae ullamcorper justo. "
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum nisl a ex placerat, sit amet suscipit sem mollis. Nulla commodo erat vitae est efficitur consectetur. Duis vitae ullamcorper justo."
+            link="/campus-notes"
           />
           <Card
             imgSrc="https://www.unicef.org/philippines/sites/unicef.org.philippines/files/styles/hero_tablet/public/UNIPH2019008.jpg.webp?itok=rLtEKd1n"
             alt="LiteSaver"
             caseStudy="LiteSaver"
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum nisl a ex placerat, sit amet suscipit sem mollis. Nulla commodo erat vitae est efficitur consectetur. Duis vitae ullamcorper justo. "
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum nisl a ex placerat, sit amet suscipit sem mollis. Nulla commodo erat vitae est efficitur consectetur. Duis vitae ullamcorper justo."
+            link="lite-saver"
           />
         </div>
       </div>

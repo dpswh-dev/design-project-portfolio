@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 li:hover {
-  @apply bg-accent;
+  /* @apply bg-accent;
   @apply text-white;
   @apply transition-all;
-  @apply rounded-lg;
+  @apply rounded-lg; */
   /* @apply bg-opacity-75; */
 }
 
@@ -16,4 +16,12 @@ li:hover {
   ul.hide{
     display: none;
   }
+}
+
+html {
+  @apply bg-background;
+}
+
+body {
+  @apply bg-background;
 }
