@@ -81,22 +81,23 @@ export default function CampusNotes() {
 
           <h1 className='text-accent text-xl mt-8 mb-6 md:text-2xl lg:text-3xl'>Zoro Roronoa</h1>
           <div className='flex justify-center items-center  w-full h-64'>
-            <img src="public\persona_zoro.png" alt="" srcset="" className='w-64' />
+            <img src="public/persona_zoro.png" alt="" srcset="" className='w-64' />
           </div>
           <h1 className='mt-6 md:text-xl xl:text-3xl'>
             A 19-24-year-old student from Banilad, The Midpoint Residences, who is driven by ambition and a thirst for knowledge. Zoro seeks financial independence and personal growth, aiming to maximize his potential by monetizing his skills. His goals include securing financial stability, expanding his horizons through continuous learning, and forging meaningful connections. Challenges include time management, investing wisely in his growth, and balancing his academic pursuits with the quest for financial success.</h1>
 
           <h1 className='text-accent text-xl mt-8 mb-6 md:text-2xl lg:text-3xl'>Annieta Maxyne</h1>
           <div className='flex justify-center items-center  w-full h-64'>
-            <img src="public\persona_annieta.png" alt="" srcset="" className='w-64' />
+            <img src="public/persona_annieta.png" alt="" srcset="" className='w-64' />
           </div>
           <h1 className='mt-6 md:text-xl xl:text-3xl'>A 19-year-old student from Cebu, Philippines, who values quality education and technology integration. Annieta seeks features that support studying, note-taking, and collaboration. Her goals include improved academic performance, efficient study management, and access to educational resources. Challenges include managing multiple subjects, time constraints, resource accessibility, and group project coordination.</h1>
 
           <h1 className=' font-semibold text-xl mb-4 md:text-2xl xl:text-3xl text-justify mt-16'>Empathy Map</h1>
           <h1 className='mb-6 md:text-xl xl:text-3xl text-justify'>Empathy maps are useful so that we are able to put ourselves in the shoes of our users. Once we know how they might possibly be feeling, we can formulate possible solutions and features around what they feel. Our general findings were that we are aiming for students who are looking for good student platform for centralized notes.</h1>
-          <div className='flex justify-center items-center w-full'>
+          <div className='flex flex-col justify-center items-center w-full'>
             <h1 className='font-base text-white text-xl  md:text-3xl'>Empathy Image</h1>
             <img src="public/empathy_zoro.jpg" alt="" srcset="" className='w-fit' />
+            <img src="public/empathy_annieta.jpg" alt="" srcset="" className='w-fit' />
           </div>
 
           <h1 className=' font-semibold text-xl mb-4 md:text-2xl xl:text-3xl text-justify mt-16'>Coming to a solution</h1>
@@ -221,9 +222,9 @@ export default function CampusNotes() {
           <h1 className=' font-semibold text-xl mb-4 mt-16 md:text-3xl lg:text-4xl'>Wireframe Storyboard</h1>
           <h1 className='text-base lg:text-3xl text-justify'>The purpose of our Wireframe Storyboard is to show the user flow with the aid of our wireframe prototype. We showcase the different pages the user can enter in CampusNotes and where they're expected to click. <a href="https://www.figma.com/file/Mpc4M4dNedewJx2IaXOkSk/LiteSaver-Wireframe?type=design&node-id=0-1&mode=design&t=eAqHFjaUtDLxB98U-0" target="_blank" className='font-semibold text-accent'>View here.</a></h1>
 
-          <div className='flex justify-center items-center  w-full h-64 mt-6'>
+          <div className='flex justify-center items-center  w-full mt-6'>
+            <img src="public/lofi_campus.png" alt="" srcset="" className='w-1/2' />
             {/* <h1 className='font-base text-white text-3xl'>Storyboard Image</h1> */}
-            <img src="public/lofi_campus.png" alt="" srcset="" className='w-80' />
 
           </div>
 
