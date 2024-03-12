@@ -16,14 +16,7 @@ export default function LiteSaver() {
         <Card>
           <div className='mb-10'>
             <h1 className='text-accent text-xl mb-4 md:text-2xl xl:text-3xl text-justify'>Why we chose this SDG?</h1>
-            <h1 className=' text-base md:text-xl lg:text-3xl text-justify'>The USC Sustainable Development Goals (USC SDGs) represent a set of
-              globally recognized objectives aimed at addressing the common challenges our world
-              faces. Quality Education, one of the SDGs, emphasizes the importance of providing
-              inclusive and quality education for all. The SDGs aim to create a shared blueprint for
-              peace and prosperity, addressing issues such as poverty, inequality, climate change,
-              and many more. By focusing on Quality Education, the USC SDGs aim to ensure
-              everyone has access to a high-quality education, fostering personal development,
-              empowerment, and a sustainable future.</h1>
+            <h1 className=' text-base md:text-xl lg:text-3xl text-justify'>Insert about litesaver here.</h1>
           </div>
           <div className=''>
             <h1 className=' text-accent text-xl mb-4 md:text-2xl xl:text-3xl'>WHY we chose this kind of system/application?</h1>
