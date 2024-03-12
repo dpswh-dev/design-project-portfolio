@@ -12,7 +12,7 @@ import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className='font-poppins h-full w-svw' data-theme="cupcake">
+    <div className='bg-background font-poppins h-full w-svw' data-theme="cupcake">
       <Navbar />
 
       {/* Hero */}

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 export default function CampusNotes() {
   return (
-    <div className='bg-background font-poppins h-full'>
+    <div className='bg-background font-poppins h-full' data-theme="cupcake">
       <Navbar />
       <Hero heading="CampusNotes" subHeading="Quality Education" />
 
