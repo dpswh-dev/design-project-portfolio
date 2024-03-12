@@ -74,7 +74,8 @@ export default function LiteSaver() {
 
           <h1 className='text-accent text-xl mt-8 mb-6 md:text-2xl lg:text-3xl'>Zoro Roronoa</h1>
           <div className='flex justify-center items-center bg-primary w-full h-64'>
-            <h1 className='font-base text-white text-xl  md:text-3xl'>Persona Image</h1>
+            {/* <h1 className='font-base text-white text-xl  md:text-3xl'>Persona Image</h1> */}
+            <img src="public\persona_zoro.png" alt="" srcset="" />
           </div>
           <h1 className='mt-6 md:text-xl xl:text-3xl'>
             A 19-24-year-old student from Banilad, The Midpoint Residences, who is driven by ambition and a thirst for knowledge. Zoro seeks financial independence and personal growth, aiming to maximize his potential by monetizing his skills. His goals include securing financial stability, expanding his horizons through continuous learning, and forging meaningful connections. Challenges include time management, investing wisely in his growth, and balancing his academic pursuits with the quest for financial success.</h1>
