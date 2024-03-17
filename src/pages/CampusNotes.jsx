@@ -1,11 +1,16 @@
 import '../App.css'
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Card from '../components/Card/Card'
 import { Link } from 'react-router-dom'
 
 export default function CampusNotes() {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
+
   return (
     <div className='bg-background font-poppins h-full' data-theme="cupcake">
       <Navbar />
@@ -120,7 +125,7 @@ export default function CampusNotes() {
             </div>
 
             <div className='flex flex-col gap-6 lg:col-start-2 lg:row-start-1'>
-              <div className='flex justify-center items-center bg-primary w-full h-64'>
+              <div className='flex justify-center items-center w-full h-64'>
                 {/* <h1 className='font-base text-white text-xl'>Storyboard Image</h1> */}
                 <img src="https://i.ibb.co/J5xjTV6/storyboard-campus.jpg" alt="" srcset="" className='w-fit' />
               </div>
@@ -132,9 +137,9 @@ export default function CampusNotes() {
             </div>
 
             <div className='lg:col-start-2 lg:row-start-2'>
-              <div className='flex justify-center items-center bg-primary w-full h-64'>
+              <div className='flex justify-center items-center  w-full h-auto'>
                 {/* <h1 className='font-base text-white text-xl'>Fishbone Image</h1> */}
-                <img src="https://i.ibb.co/yW0WWkH/fishbone-campus.jpg" alt="" srcset="" className='w-fit' />
+                <img src="https://i.ibb.co/yW0WWkH/fishbone-campus.jpg" alt="" srcset="" className='w-fit h-auto' />
 
               </div>
             </div>
@@ -149,7 +154,7 @@ export default function CampusNotes() {
             </div>
 
             <div>
-              <div className='flex justify-center items-center bg-primary w-full h-64'>
+              <div className='flex justify-center items-center  w-full h-64'>
                 {/* <h1 className='font-base text-white text-xl'>Mind Mapping Image</h1> */}
                 <img src="https://i.ibb.co/g7p9KPc/mindmap-campus.jpg" alt="" srcset="" className='w-fit' />
 
@@ -231,7 +236,7 @@ export default function CampusNotes() {
           </div>
 
           <h1 className=' font-semibold text-xl mb-4 mt-16 md:text-3xl lg:text-4xl'>Wireframe Storyboard</h1>
-          <h1 className='text-base lg:text-3xl text-justify'>The purpose of our Wireframe Storyboard is to show the user flow with the aid of our wireframe prototype. We showcase the different pages the user can enter in CampusNotes and where they're expected to click. <a href="https://www.figma.com/file/Mpc4M4dNedewJx2IaXOkSk/LiteSaver-Wireframe?type=design&node-id=0-1&mode=design&t=eAqHFjaUtDLxB98U-0" target="_blank" className='font-semibold text-accent'>View here.</a></h1>
+          <h1 className='text-base lg:text-3xl text-justify'>The purpose of our Wireframe Storyboard is to show the user flow with the aid of our wireframe prototype. We showcase the different pages the user can enter in CampusNotes and where they're expected to click. <a href="https://www.figma.com/file/F3jKD4Qgp4C7VsaQwLvYXn/Campus-Notes-Wireframe?type=design&node-id=0-1&mode=design&t=HjRY8vJWbiA99lt1-0" target="_blank" className='font-semibold text-accent'>View here.</a></h1>
 
           <div className='flex justify-center items-center  w-full mt-6'>
             <img src="https://i.ibb.co/6y8mb0c/lofi-campus.png" alt="" srcset="" className='w-1/2' />
