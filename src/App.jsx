@@ -66,11 +66,12 @@ function App() {
             link="/campus-notes"
           />
           <Card
-            imgSrc="https://www.unicef.org/philippines/sites/unicef.org.philippines/files/styles/hero_tablet/public/UNIPH2019008.jpg.webp?itok=rLtEKd1n"
+            imgSrc="https://cdn-icons-png.freepik.com/512/771/771235.png"
             alt="LiteSaver"
             caseStudy="LiteSaver"
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum nisl a ex placerat, sit amet suscipit sem mollis. Nulla commodo erat vitae est efficitur consectetur. Duis vitae ullamcorper justo."
             link="lite-saver"
+            className="h-auto w-64 p-6"
           />
         </div>
       </div>
