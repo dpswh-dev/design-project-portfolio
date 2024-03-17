@@ -195,8 +195,8 @@ export default function CampusNotes() {
           </div>
 
           <h1 className=' font-semibold text-xl mb-8 mt-16 md:text-3xl lg:text-4xl'>Narrative Storyboard</h1>
-          <h1 className='text-base lg:text-3xl text-justify'>The purpose of our Narrative Storyboard is to showcase how our users navigate through our application. At the same time, if we try to simulate the user experience, maybe we can potentially target flaws and create solutions for those.</h1>
-          <h1 className=' font-semibold text-xl mb-8 mt-16 md:text-3xl lg:text-4xl'>Juice</h1>
+          <h1 className='text-base lg:text-3xl text-justify mb-12'>The purpose of our Narrative Storyboard is to showcase how our users navigate through our application. At the same time, if we try to simulate the user experience, maybe we can potentially target flaws and create solutions for those. Below, we present Juice's storyboard.</h1>
+          {/* <h1 className=' font-semibold text-xl mb-8 mt-16 md:text-3xl lg:text-4xl'>Juice</h1> */}
 
           <div className="mb-8 text-xl lg:text-3xl">
             <h1 className='font-semibold mb-2 text-accent'>Login Page</h1>

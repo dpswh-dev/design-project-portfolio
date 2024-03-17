@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 
 export default function CampusNotes() {
 
-  useEffect(()=>{
-    window.scrollTo(0, 0);
-  },[])
+  // useEffect(()=>{
+  //   window.scrollTo(0, 0);
+  // },[])
 
   return (
     <div className='bg-background font-poppins h-full' data-theme="cupcake">
@@ -119,19 +119,19 @@ export default function CampusNotes() {
           <h1 className=' font-semibold text-xl mb-4 md:text-2xl xl:text-3xl text-justify mt-16'>Coming to a solution</h1>
           <h1 className='mb-16 md:text-xl xl:text-3xl text-justify'>In order to apply what we've learned, we used a variation of three different Ideation Techniques. These are: Storyboard, Fishbone, and Mind Mapping.</h1>
           <div className='flex flex-col relative gap-16 mb-16 xl:grid xl:grid-cols-2 xl:grid-rows-3'>
-            <div className=' border border-gray-400 bg-base-100 rounded-md p-4 md:text-xl lg:row-span-1'>
+            <div className=' border border-gray-400 bg-base-100 rounded-md p-4 md:text-xl lg:row-span-1 h-fit'>
               <h1 className='text-accent text-xl md:text-2xl lg:text-3xl font-semibold'>Storyboard</h1>
               <h1 className='mt-4 lg:text-3xl text-justify'>Through the storyboard, we are able to construct a series of steps in order to come up with possible problems, then formulate possible solutions. The storyboard gives us an overview of the steps needed to take to reach the conclusion.</h1>
             </div>
 
             <div className='flex flex-col gap-6 lg:col-start-2 lg:row-start-1'>
-              <div className='flex justify-center items-center w-full h-64'>
+              <div className='flex justify-center items-center w-full h-fit'>
                 {/* <h1 className='font-base text-white text-xl'>Storyboard Image</h1> */}
-                <img src="https://i.ibb.co/J5xjTV6/storyboard-campus.jpg" alt="" srcset="" className='w-fit' />
+                <img src="https://i.ibb.co/J5xjTV6/storyboard-campus.jpg" alt="" srcset="" className='w-fit h-fit' />
               </div>
             </div>
 
-            <div className=' border border-gray-400 bg-base-100 rounded-md p-8 md:text-xl lg:col-start-1'>
+            <div className=' border border-gray-400 bg-base-100 rounded-md p-4 md:text-xl lg:row-span-1 h-fit'>
               <h1 className='text-accent text-xl md:text-2xl lg:text-3xl font-semibold'>Fishbone</h1>
               <h1 className='mt-4 lg:text-3xl text-justify'>The fishbone enables us to come up with possible problems and sub-problems. It's important to know what is causing your users inconvenience in your app.</h1>
             </div>
@@ -139,7 +139,7 @@ export default function CampusNotes() {
             <div className='lg:col-start-2 lg:row-start-2'>
               <div className='flex justify-center items-center  w-full h-auto'>
                 {/* <h1 className='font-base text-white text-xl'>Fishbone Image</h1> */}
-                <img src="https://i.ibb.co/yW0WWkH/fishbone-campus.jpg" alt="" srcset="" className='w-fit h-auto' />
+                <img src="https://i.ibb.co/yW0WWkH/fishbone-campus.jpg" alt="" srcset="" className='w-fit h-fit' />
 
               </div>
             </div>
@@ -148,15 +148,15 @@ export default function CampusNotes() {
               <svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(180)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.24000000000000005"></g><g id="SVGRepo_iconCarrier"> <path d="M12 5V19M12 5L6 11M12 5L18 11" stroke="#ed5d85" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
             </div> */}
 
-            <div className=' border border-gray-400 bg-base-100 rounded-md p-8 md:text-xl lg:col-start-1'>
+            <div className=' border border-gray-400 bg-base-100 rounded-md p-4 md:text-xl lg:row-span-1 h-fit'>
               <h1 className='text-accent text-xl md:text-2xl lg:text-3xl font-semibold'>Mind Mapping</h1>
               <h1 className='mt-4 lg:text-3xl text-justify'>The purpose of our mind map is to formulate possible solutions to the problems we formulated using the fishbone. We deliberated which problems are high priority and made solutions around them.</h1>
             </div>
 
             <div>
-              <div className='flex justify-center items-center  w-full h-64'>
+              <div className='flex justify-center items-center  w-full h-fit'>
                 {/* <h1 className='font-base text-white text-xl'>Mind Mapping Image</h1> */}
-                <img src="https://i.ibb.co/g7p9KPc/mindmap-campus.jpg" alt="" srcset="" className='w-fit' />
+                <img src="https://i.ibb.co/g7p9KPc/mindmap-campus.jpg" alt="" srcset="" className='w-fit h-fit' />
 
               </div>
             </div>
@@ -192,8 +192,8 @@ export default function CampusNotes() {
           </div>
 
           <h1 className=' font-semibold text-xl mb-4 mt-16 md:text-3xl lg:text-4xl'>Narrative Storyboard</h1>
-          <h1 className='text-base lg:text-3xl text-justify'>The purpose of our Narrative Storyboard is to showcase how our users navigate through our application. At the same time, if we try to simulate the user experience, maybe we can potentially target flaws and create solutions for those.</h1>
-          <h1 className=' font-semibold text-xl mb-4 mt-16 md:text-3xl lg:text-4xl'>Zoro</h1>
+          <h1 className='text-base lg:text-3xl text-justify mb-8'>The purpose of our Narrative Storyboard is to showcase how our users navigate through our application. At the same time, if we try to simulate the user experience, maybe we can potentially target flaws and create solutions for those. Below, we present Zoro's narrative storyboard.</h1>
+          {/* <h1 className=' font-semibold text-xl mb-4 mt-16 md:text-3xl lg:text-4xl'>Zoro</h1> */}
 
           <div className="mb-4 text-xl lg:text-3xl">
             <h1 className='font-semibold mb-2 text-accent'>Login Page</h1>
