@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 
 export default function CampusNotes() {
 
-  // useEffect(()=>{
-  //   window.scrollTo(0, 0);
-  // },[])
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   
   return (
     <div className='bg-background font-poppins h-full' data-theme="cupcake">
